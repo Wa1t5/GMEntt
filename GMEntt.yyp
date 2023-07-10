@@ -1,0 +1,52 @@
+{
+  "resourceType": "GMProject",
+  "resourceVersion": "1.7",
+  "name": "GMEntt",
+  "AudioGroups": [
+    {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},
+  ],
+  "configs": {
+    "children": [],
+    "name": "Default",
+  },
+  "defaultScriptType": 0,
+  "Folders": [
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Debug","folderPath":"folders/Debug.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Entities","folderPath":"folders/Entities.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Collision","folderPath":"folders/Entities/Collision.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprite","folderPath":"folders/Entities/Collision/Sprite.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Enemy","folderPath":"folders/Entities/Enemy.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Player","folderPath":"folders/Entities/Player.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Entities/Player/Sprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Game","folderPath":"folders/Game.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Game/Scripts.yy",},
+  ],
+  "IncludedFiles": [],
+  "isEcma": false,
+  "LibraryEmitters": [],
+  "MetaData": {
+    "IDEVersion": "2023.6.0.89",
+  },
+  "resources": [
+    {"id":{"name":"ent_player","path":"scripts/ent_player/ent_player.yy",},},
+    {"id":{"name":"spr_collision","path":"sprites/spr_collision/spr_collision.yy",},},
+    {"id":{"name":"spr_dbg_tls","path":"sprites/spr_dbg_tls/spr_dbg_tls.yy",},},
+    {"id":{"name":"scr_math","path":"scripts/scr_math/scr_math.yy",},},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"scr_input","path":"scripts/scr_input/scr_input.yy",},},
+    {"id":{"name":"ent_enemy","path":"scripts/ent_enemy/ent_enemy.yy",},},
+    {"id":{"name":"scr_entt_manager","path":"scripts/scr_entt_manager/scr_entt_manager.yy",},},
+    {"id":{"name":"ent_entity","path":"scripts/ent_entity/ent_entity.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"col_collision","path":"scripts/col_collision/col_collision.yy",},},
+    {"id":{"name":"obj_game","path":"objects/obj_game/obj_game.yy",},},
+    {"id":{"name":"tls_dbg","path":"tilesets/tls_dbg/tls_dbg.yy",},},
+    {"id":{"name":"obj_generic","path":"objects/obj_generic/obj_generic.yy",},},
+  ],
+  "RoomOrderNodes": [
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "TextureGroups": [
+    {"resourceType":"GMTextureGroup","resourceVersion":"1.3","name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"targets":-1,},
+  ],
+}
